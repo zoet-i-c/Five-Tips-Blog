@@ -13,10 +13,7 @@
 h1 {
     font-size: 40px;
     color: darkslategrey;
-}
-
-p {
-    color: dimgrey;
+    font-family: sans-serif;
 }
 
 #blog-content {
@@ -26,10 +23,12 @@ p {
 .h-style {
     color: darkslategrey;
 }
-.h-style h1{
+#site-title a{
+    font-size:28px;
+    color:black;
+    font-weight:bold;
     font-family:sans-serif;
 }
-.h-style h4{
-    font-family:monospace;
-    font-size:1.33rem;
+#site-title a:hover{
+    color:orange;
 }
