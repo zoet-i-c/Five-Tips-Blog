@@ -1,18 +1,35 @@
-/*-----main-----*/
-article {
-    width: 1000px;
+/*-----header-----*/
+#main-header {
+    height: 400px;
 }
 
+#about-site {
+    color: grey;
+}
+
+
+
+/*-----main-----*/
 h1 {
     font-size: 40px;
     color: darkslategrey;
 }
-#about-site{
-    color:grey;
-}
-.h-style{
-    color: darkslategrey;
-}
+
 p {
     color: dimgrey;
+}
+
+#blog-content {
+    width: 1000px;
+}
+
+.h-style {
+    color: darkslategrey;
+}
+.h-style h1{
+    font-family:sans-serif;
+}
+.h-style h4{
+    font-family:monospace;
+    font-size:1.33rem;
 }
