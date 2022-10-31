@@ -1,3 +1,18 @@
-h1,p{
+/*-----main-----*/
+article {
+    width: 1000px;
+}
+
+h1 {
+    font-size: 40px;
     color: darkslategrey;
+}
+#about-site{
+    color:grey;
+}
+.h-style{
+    color: darkslategrey;
+}
+p {
+    color: dimgrey;
 }
