@@ -10,6 +10,8 @@ img{
     color: #1a1a1a;
     font-weight: bold;
     font-family: sans-serif;
+    text-decoration:none;
+    line-height:1.25;
 }
 
 #site-title a:hover {
@@ -26,12 +28,22 @@ img{
 #blog-header h1 {
     color: #13222c;
     font-family: sans-serif;
+    font-size:3.2rem;
 }
 
 #blog-content {
-    width: 90vw;
+    width: 90%;
+    font-size:1.1rem;
+    line-height:1.4;
+    word-spacing:1px;
 }
 
 .h-style {
     color: #13222c;
+}
+.sources li a{
+    text-decoration:none;
+}
+.sources li a:hover{
+    color:black;
 }
